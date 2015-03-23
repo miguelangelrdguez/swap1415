@@ -1,0 +1,25 @@
+Tras configurar instalar el sistema operativo en VMWare y 
+
+clonar la máquina, se configura, en clase, las siguientes 
+
+ip's para cada máquina:
+-ServidorProduccion: 192.168.106.130
+-ServidorClon: 192.168.106.131
+
+Una vez hecho eso, se siguen las indicaciones del guión de 
+
+prácticas para probar que se clonan correctamente los 
+
+archivos que se desean. Posteriormente se crea el 
+
+certificado para poder acceder al servidor de producción 
+
+sin introducir la contraseña, y copiamos la clave pública 
+
+a dicho servidor. Por último, añadimos la tarea a crontab 
+
+para que se ejecute cada hora rsync con el fin de mantener 
+
+actualizado el contenido del directorio /var/www en las 
+
+dos máquinas.
