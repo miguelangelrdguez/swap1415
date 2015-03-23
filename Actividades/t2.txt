@@ -1,0 +1,30 @@
+2.1:
+DisponibilidadTotal= DisponibilidadElemento1 * DisponibilidadElemento2 * ... * DisponibilidadElementoN
+
+DisponibilidadElementoN = DisponibilidadElementoN + ((1-DisponibilidadElementoN) * (DisponibilidadNuevoElementoN))
+
+T2.2:
+Frameworks que permiten hacer aplicaciones altamente disponibles:
+ Net Framework, Zope, Mysql Fabric.
+Librerías que permiten hacer aplicaciones altamente disponibles:
+ Madeja (librería de JBoss), Nagios, Netrc
+
+T2.3:
+COMANDOS
+ A nivel de CPU:
+   'uptime': muestra el número de procesos en cola listos para ejecutar en el último minuto, 5 minutos, y 15 minutos, además del tiempo que lleva encendida la máquina.
+ A nivel de RAM:
+   'free' o 'free -m' (esta última para verlo en Mb): Muestra la memoria libre, ocupada, compartida, cacheada y en swap.
+ Escrituras E/S a dispositivos:
+   'iostat': Nos dice, además de otra información, el porcentaje de CPU usado en procesos en espacio de aplicación (%user), en espacio de aplicación pero con valores "nice" para darles mayor o menor priodidad (%ncie), en espacio kernel (%sys) y lo que nos interesa:
+      - %iowait: Porcentaje de procesos que están esperando a una operación E/S. Cuanto más bajo, mejor. Si es un valor alto contínuamente, existe cuello de botella.
+      - %idle: El porcentaje de CPU que está en espera por una razón que no tenga que ver con el exceso de peticiones E/S. Que tenga un valor alto de CPU no es negativo, significa "CPU Libre".
+
+T2.4:
+SOFTWARE:
+ HAProxy, Zen, VGsSyle, Pen
+HARDWARE:
+ WebMax Load Balancing (CAI Networking)
+ Big Ip Local Traffic Manager (F5)
+ Barracuda Load Balancer (Barracuda Networking)
+ Cisco ArrowPoint

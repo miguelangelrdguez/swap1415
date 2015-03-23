@@ -1,0 +1,11 @@
+3.1:
+ route add (subred) (máscara de subred)
+ ip route add 192.168.A.B/24 via 192.168.A.C table main
+
+3.2:
+ Linux:
+   iptables -A INPUT -P tcp -sport 2222 (bloquea el puerto de origen 2222).
+   iptables -A input -p tcp -m iprange -src-range 192.168.1.13-192.168.2.19 (bloquea el rango de ips desde la .13 a la .19)
+
+ Windows:
+    inicio>panel de control>(cuadro de búsqueda):firewall > firewall de windows > (panel izquierdo) activar o desactivar firewall de windows > configuración avanzada > reglas de entrada / reglas de salida > botón derecho > nueva regla 
