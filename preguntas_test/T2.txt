@@ -10,3 +10,18 @@ a) Doble acometida eléctrica, doble conexión de red, routers, firewalls, balance
 b) Doble acometida eléctrica, doble tarjeta de red y routers, firewalls y balanceadores redundantes
 c) Ninguna es cierta
 d) Usando subsistemas redundantes y monitorizándolos para mejorar la disponibilidad del sistema global
+Respuesta Correcta: D
+
+Cuando hablamos de escalabilidad, existen dos tipos de escalado ¿cuales son?:
+a) Amplicación en rama, y difusa
+b) Escalado en anchura y en profundidad
+c) Lineal y exponencial
+d) Amplicación Vertical y Ampliación Horizontal
+Respuesta Correcta: D
+
+A la hora de escalar un sitio web, debemos de hacerlo pensando en:
+a) Las máquinas que actuarán como servidores web únicamente
+b) Las máquinas que servirán aplicaciones únicamente
+c) Las máquinas que se encargarán del almacenamiento de datos
+d) Tendremos que hacerlo teniendo en cuenta las máquinas que darán servicio web, las aplicaciones y el almacenamiento
+Respuesta Correcta: D
