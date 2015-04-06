@@ -1,0 +1,13 @@
+¿Qué es una Granja Web?
+a) Un conjunto de ordenadores que contienen páginas web
+b) Un conjunto de servidores dedicados solo a servir archivos .html bajo el protocolo https
+c) Un conjunto de servidores dedicados a servir contenido web a los usuarios finales, algunos de esos servidores servirán contenido estático, otros actuarán como servidores de BBDD, otros para aplicaciones dinámicas, etc.
+d) Ninguna es cierta.
+Respuesta Correcta: C
+
+Cuando se nos encomienda la tarea de realizar un sitio web desde el principio (incluyendo adquisición y configuración de HW y SW), lo primero que debemos hacer es:
+a) Instalar el sistema operativo y los servicios en la/s máquina/s que vayan a servir el sitio web y comenzar a alojar en ella/s los archivos del correspondiente sitio
+b) Planificar detenidamente el sitio Web (tráfico, escalabilidad, seguridad, alta disponibilidad...)
+c) Descargarnos de internet una imagen de un disco duro que tenga todo instalado y clonarla en los discos de nuestro/s servidor/es
+d) Instalar apache
+Respuesta Correcta: B
