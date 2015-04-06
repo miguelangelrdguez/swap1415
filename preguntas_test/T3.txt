@@ -1,0 +1,12 @@
+A la hora de crear y configurar la red de un sistema web, hemos de tener en cuenta:
+a) La construcción ha de ser segura y escalable ya que ello es fundamental para cualquier servidor
+b) La red ha de estar bien estructurada, y para ello el administrador ha de analizar las opciones de conexión a Internet
+c) Debe existir separación entre subredes corporativas y conexión con redes privadas de proveedores
+d) Todas las anteriores son ciertas si tenemos en cuenta además que hay que decidir el ancho de banda a contratar
+Respuesta Correcta: D
+
+¿Qué significan las siglas DMZ y para qué se usa?:
+a) Delimited Main Zone, subred que se desprotege a propósito para capturar la atención de los atacantes y securizar en base a ello el resto de la red
+b) Deleted Magnetic Zone, área del edificio donde se encuentran los routers, servidores, etc, libre de radiaciones Electromagnéticas
+c) En un contexto de seguridad informática, DMZ no tiene lugar
+d) Demilitarized Zone, red local que se ubica entre la interna de una organización y una externa (generalmente Internet), con el fin de que los equipos de la DMZ puedan dar servicios a la red externa a la vez que protegen la red interna
