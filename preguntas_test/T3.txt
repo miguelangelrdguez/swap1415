@@ -8,5 +8,13 @@ Respuesta Correcta: D
 ¿Qué significan las siglas DMZ y para qué se usa?:
 a) Delimited Main Zone, subred que se desprotege a propósito para capturar la atención de los atacantes y securizar en base a ello el resto de la red
 b) Deleted Magnetic Zone, área del edificio donde se encuentran los routers, servidores, etc, libre de radiaciones Electromagnéticas
-c) En un contexto de seguridad informática, DMZ no tiene lugar
-d) Demilitarized Zone, red local que se ubica entre la interna de una organización y una externa (generalmente Internet), con el fin de que los equipos de la DMZ puedan dar servicios a la red externa a la vez que protegen la red interna
+c) Demilitarized Zone, red local que se ubica entre la interna de una organización y una externa (generalmente Internet), con el fin de que los equipos de la DMZ puedan dar servicios a la red externa a la vez que protegen la red interna
+D) En un contexto de seguridad informática, DMZ no tiene lugar
+Respuesta Correcta: C
+
+¿Cual es la configuración más segura de red para una granja Web?
+a) Poner un cortafuegos
+b) Usar DMZ Simple
+c) Usar DMZ Tradcional
+d) Usar Doble DMZ (subred frontal + subred trasera)
+Respuesta Correcta: D
