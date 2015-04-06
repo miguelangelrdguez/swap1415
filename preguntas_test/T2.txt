@@ -1,0 +1,12 @@
+Definimos Alta disponibilidad como:
+a) Capacidad de aceptar visitas las 24 horas, todos los días
+b) Característica de un sistema de estar encendido el mayor tiempo posible
+c) Capacidad de un sistema operativo de aceptar únicamente un gran número de peticiones https
+d) Todas las anteriores son ciertas
+Respuesta Correcta: A
+
+¿Cómo se consigue mejorar la disponibilidad?
+a) Doble acometida eléctrica, doble conexión de red, routers, firewalls, balanceadores y servidores redundantes, HW duplicado en servidores, aplicaciones redundantes...
+b) Doble acometida eléctrica, doble tarjeta de red y routers, firewalls y balanceadores redundantes
+c) Ninguna es cierta
+d) Usando subsistemas redundantes y monitorizándolos para mejorar la disponibilidad del sistema global
