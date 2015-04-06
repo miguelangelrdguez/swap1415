@@ -1,0 +1,13 @@
+A la hora de realizar un balanceo de carga, ¿usarías balanceo mediante DNS?
+a) Sí, es igual de eficiente que usar un balanceador de carga HW independientemente de las circunstancias
+b) No, porque un balanceador de carga HW debe hacerlo mucho mejor
+c) No, porque en el caso de que no esté disponible una máquina servidora final, el servidor DNS no tiene constancia de ello, además de que los DNS no se inventaron con esta finalidad.
+d) Sí, porque al realizarse las peticiones de resolución de nombres usando UDP, esto es más rápido, y el sistema global iría mejor.
+Respuesta Correcta: C
+
+El balanceo de carga global tiene como fin..:
+a) Distribuir la carga entre varios centros de datos y evitar retrasos en las comunicaciones dirigiendo a sus visitantes a los servidores más cercanos de ellos geográficamente
+b) Reducir la carga de tráfico de todos los servidores de internet, independientemente de si tenemos o no control sobre ellos
+c) Hacer que una petición viaje por todo el planeta antes de llegar a su destino
+d) Ninguna de las anteriores es cierta
+Respuesta Correcta: A
