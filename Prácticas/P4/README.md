@@ -47,6 +47,16 @@ que a la hora de representarlos como diagramas de barras se consigue:
 Con esta herramienta se pasa a realizar el último Benchmark para esta práctica, para ello se usa la sentencia:     
 `siege -b -t 60s 192.168.161.131/prueba.html`      
 
+Tras ello se obtienen los siguientes datos:          
+
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/tabla_1_balanceador_nginx.PNG)     
+
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/tabla_2_balanceador_haproxy.PNG)     
+
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/tabla_3_productor.PNG)     
+
+Al representar de manera gráfica dichos datos, se obtiene:            
+
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/1-availability.png)    
      
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/2-elapsed_time.png)    
