@@ -10,4 +10,10 @@ y con ello hacemos la batería de pruebas, cuyos valores devueltos se pasan a mo
 
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/1-time_taken_for_test.png)    
      
-![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/2-failed_request.png)  
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/2-failed_request.png)   
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/3-request-per-second.png)     
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/4-time-per-request.png)    
+       
+Una vez realizada el benchmark con esta herramienta, pasamos a usar Open Web load, ya que httperf nos mostró un incorrecto funcionamiento (puede verse el resultado del benchmark con httperf en [el documento PDF](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/pdfs_test/tests.pdf "Resultados Gráficos de los Benchmark")) con todos los Benchmark.
