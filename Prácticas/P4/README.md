@@ -6,7 +6,14 @@
 Partimos de la máquina que se usó para la práctica anterior.
 Usando esta utilidad (que viene junto a Apache), escribimos:
 `ab -n 1000 -c 10 http://www.example.com/test.html`  
-y con ello hacemos la batería de pruebas, cuyos valores devueltos se pasan a mostrar gráficamente:    
+y con ello hacemos la batería de pruebas, cuyos valores devueltos son:    
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/tabla_1_balanceador_nginx.PNG)    
+
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/tabla_2_balanceador_haproxy.PNG)        
+            
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/tabla_3_produccion.PNG)      
+
+cuya representación gráfica es:    
 
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/apache/1-time_taken_for_test.png)    
      
