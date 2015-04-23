@@ -29,6 +29,13 @@ Una vez realizada el benchmark con esta herramienta, pasamos a usar Open Web loa
 Usamos la orden    
 `openload http://192.168.161.130 10`    
 para poder ejecutar el benchmark, obteniendo los siguientes resultados:    
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/tabla_1_balanceador_nginx.PNG)    
+       
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/tabla_2_balanceador_haproxy.PNG)    
+           
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/tabla_3_produccion.PNG)    
+       
+que a la hora de representarlos como diagramas de barras se consigue:       
 
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/1-transactions_per_second.png)    
      
