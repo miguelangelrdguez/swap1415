@@ -20,7 +20,7 @@ Una vez realizada el benchmark con esta herramienta, pasamos a usar Open Web loa
      
 #### Open Web Load     
 Usamos la orden    
-`siege -b -t 60s 192.168.161.131/prueba.html`    
+`openload http://192.168.161.130 10`    
 para poder ejecutar el benchmark, obteniendo los siguientes resultados:    
 
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/1-transactions_per_second.png)    
@@ -30,3 +30,17 @@ para poder ejecutar el benchmark, obteniendo los siguientes resultados:
 ![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/openWebLoad/3-max_resp_time.png)     
      
 #### Siege    
+Con esta herramienta se pasa a realizar el último Benchmark para esta práctica, para ello se usa la sentencia:     
+`siege -b -t 60s 192.168.161.131/prueba.html`      
+
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/1-availability.png)    
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/2-elapsed_time.png)    
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/3-response_time.png)    
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/4-transaction_rate.png)    
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/5-failed_transactions.png)    
+     
+![apachebenchmark](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P4/img/siege/6-longest_transaction.png)    
