@@ -1,0 +1,13 @@
+El número de conexiones concurrentes es un factor que no afecta a aquellas que usen el protocolo...:
+a) TCP
+b) UDP
+c) Ambos
+d) Ninguno
+Respuesta correcta: B
+
+Si queremos conocer el rendimiento de un balanceador, la fórmula que usamos para calcularlo es...:
+a) rendimiento = ( (frecuenciaCPU*0.4)+(memoriaRam*0.5)+(factorDisponibilidad*01) ) /100
+b) rendimiento = 1/ratio_transm_paquetes * payload
+c) rendimiento = (payload * ratio_transm_paquetes ) * 100
+d) rendimiento = ratio_transm_paquetes * payload
+Respuesta correcta= D
