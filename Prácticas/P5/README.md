@@ -1,6 +1,6 @@
 # PRÁCTICA 5 
 
-## CReplicación de bases de datos MySQL
+## Replicación de bases de datos MySQL
 
 ### Copia Manual
 A la hora de realizar una réplica de una base de datos, podemos optar por realizarla de manera manual, esta opción, para situaciones en las que el volumen de datos sea ínfimo, y su constante de cambio también, podría ser una solución. Para ello podríamos realizarlo exportando la base de datos de uno de los servidores e importándola en otro.
