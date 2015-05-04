@@ -6,14 +6,14 @@
 A la hora de realizar una réplica de una base de datos, podemos optar por realizarla de manera manual, esta opción, para situaciones en las que el volumen de datos sea ínfimo, y su constante de cambio también, podría ser una solución. Para ello podríamos realizarlo exportando la base de datos de uno de los servidores e importándola en otro.
          
 ### Copia Usando Mysqldump
-	 #### Mostramos el contenido de la base de datos... :     
+	 ##### Mostramos el contenido de la base de datos... :     
 ![copiaConMysqlDump](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P5/img/2.PNG)  	   
      #### Con el fin de asegurarnos que a la hora de realizar la exportación de la base de datos a un fichero .sql usando esta herramienta no se realice ningún cambio, realizamos lo siguiente:      
 ![copiaConMysqlDump](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P5/img/3.PNG)     
      Una vez exportada la base de datos, procederíamos, desde el lado del esclavo, a copiarla al equipo esclavo...:     
 ![copiaConMysqlDump](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P5/img/4.PNG)           
      ... y a importarla:      
-![copiaConMysqlDump](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P5/img/5.PNG)      
+![copiaConMysqlDump](https://github.com/miguelangelrdguez/swap1415/blob/master/Pr%C3%A1cticas/P5/img/5.png)      
 
 
 ### Copia Usando Configuración Maestro-Esclavo       
