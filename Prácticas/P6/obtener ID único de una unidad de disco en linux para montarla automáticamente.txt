@@ -1,9 +1,0 @@
-se puede hacer con:
-·blkid
-·lsblk
-·ls -l dev/disk/by-uuid
-
-Esto mostrará los distintos dispositivos de almacenamiento con su identificador único.
-Una vez se tenga, se añade al final de /etc/fstab una línea parecida a:
-· UUID=(el identificador que hemos obtenido de alguna de las anteriores órdenes. Es una cadena de 20 dígitos o más hexadecimales) /mnt/datos ext4 default ... (los parámetros habituales de lectura y escritura)
-
