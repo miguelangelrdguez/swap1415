@@ -1,0 +1,15 @@
+¿Qué componente hardware de un servidor dentro de una granja web es de los más importantes?
+A) Disco Duro
+B) CPU
+C) Tarjeta de Red
+D) Memoria Ram
+
+Respuesta Correcta: D
+
+Ante un sitio web que albergue más contenido estático que dinámico, lo idóneo sería...
+A) Configurar a un servidor que se encargue únicamente de servir dicho contenido estático, y otro del dinámico
+B) Realizar un estudio detallado de qué contenidos albergará el sitio Web para adquirir Un servidor más potente en consecuencia
+C) Contratar un ancho de banda el doble del necesario para que el contenido estático se transfiriera antes que el contenido dinámico
+D) Ninguna de las anteriores es cierta
+
+Respuesta Correcta: A

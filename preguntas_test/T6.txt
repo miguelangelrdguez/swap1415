@@ -1,0 +1,13 @@
+Según se vió en el tema 6, ¿qué niveles a los que aplicárseles políticas de seguridad se contemplan?
+A) Nivel Físico, Nivel de Red, Nivel de Administrador, Nivel de aplicaciones (cuentas de servicios)
+B) Nivel Físico, nivel lógico, nivel de red, nivel de aplicación
+C) Nivel Físico, Nivel de red, nivel de transporte, nivel de sesión
+D) Nivel Físico, Nivel de aplicación, nivel de presentación, nivel de transporte, nivel de red
+Respuesta Correcta: A
+
+A la hora de configurar un cortafuegos, lo idóneo sería...:
+A) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico permitido y de intentos de acceso para estudiar más tarde posibles ataques
+B) Distinguir grupos de reglas por tipo de tráfico, permitir por defecto el tráfico, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico permitido y de intentos de acceso para estudiar más tarde posibles ataques
+C) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en ambos sentidos, definir reglas por cada ip, mantener logs del tráfico no permitido y de intentos de acceso para estudiar más tarde posibles ataques
+D) Distinguir grupos de reglas por tipo de tráfico, denegar por defecto el tráfico no permitido explícitamente, permitir el tráfico en el sentido necesario, definir reglas por cada ip, mantener logs del tráfico no permitido y de intentos de acceso para estudiar más tarde posibles ataques
+Respuesta correcta: D
