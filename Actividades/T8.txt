@@ -1,0 +1,23 @@
+8.1:
+	Gigabit Ethernet:Se comienza a investigar a principios de los 70, se aprueba el estándar en 1998-1999
+		Consigue una velocidad de transmisión de 1gigabit por segundo.
+		Estándares:
+			1000BASE-SX: Fibra Multimodo, Láser 850 nm, Distancia < 550 m
+			1000BASE-LX: Fibra Multimodo y Monomodo, Láser 1310 nm, Distancia < 10 Km.
+			1000BASE-EX: Fibra Monomodo Estándar, Láser 1310 nm, Distancia < 40 Km
+			1000BASE-ZX: Fibra Monomodo Estándar, Láser 1550 nm, Distancia < 80 Km
+			1000BASE-CX: Cable STP (2 pares), Distancia < 25 m
+			1000BASE-T: Cable UTP-5e, Distancia < 100 m
+
+
+	10-Gigabit Ethernet: Año 2002, es el más rápido de los estándares Ethernet
+		Consigue una velocidad de transmisión de 10 gigabits por segundo.
+		Estándares:
+			10GBASE-SR ("short range"): Fibra multi-modo, 850 nm, Distancia entre 26 y 82 m
+			10GBASE-CX4: Interfaz de cobre que usa cables InfiniBand CX4. Distancia 15 m
+			10GBASE-LX4: Fibra multimodo. Multiplexión por división de longitud de onda.Distancias entre 240 y 300 m
+			10GBASE-LR ("long range"): Fibra monomodo, 1310 nm, Distancia hasta 10 Km.
+			10GBASE-ER ("extended range"): Fibra monomodo, 1550 nm, Distancia hasta 40 Km.
+			10GBASE-LRM: FDDI, 62,5 µm
+			10GBASE-SW, 10GBASE-LW y 10GBASE-EW: Estas variedades usan el WAN PHY, diseñado para interoperar con equipos OC-192/STM-64 SONET/SDH usando una trama ligera SDH/SONET. Se corresponden en el nivel físico con 10GBASE-SR, 10GBASE-LR y 10GBASE-ER respectivamente, y por ello usan los mismos tipos de fibra y permiten las mismas distancias. 
+			10GBASE-T: UTP-6 ó UTP-7, Distancia menos de 100 m.
